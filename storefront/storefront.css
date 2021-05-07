@@ -1,0 +1,110 @@
+* {
+    background-color:#333;
+    margin: 0;
+    padding: 0;
+    color: rgb(163, 163, 163);
+}
+
+.topleftnav {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.topleftnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 35px;
+    text-decoration: none; 
+    font-size: 17px;
+    transition: top 0.3s;
+}
+  
+.topleftnav a:hover {
+    background-color: rgb(104, 76, 141);
+    color: black;
+}
+  
+
+.toprightlinks {
+    position: fixed;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.toprightlinks a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 10px;
+    transition: top 0.3s;
+}
+  
+.toprightlinks a:hover {
+    background-color: rgb(105, 3, 3);
+    color: black;
+}
+  
+.toprightlinks a.active {
+    background-color: rgb(60, 156, 194);
+    color: white;
+}
+
+.electric {
+    position: relative;
+}
+
+button { /* add to cart button */
+    background-color:rgb(65, 65, 65);
+    color: white;
+    padding: 1px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 20px; 
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    background-color: rgb(83, 83, 83);
+}
+
+.electric .instrumental .single {
+    margin-left: 20px;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    padding-left: 5px;
+}
+
+h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.radio {
+    padding-left: 10px;
+}
+
+input {
+    margin-top: 5px;
+    margin-left: 8px;
+}
